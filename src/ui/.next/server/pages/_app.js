@@ -208,7 +208,7 @@ function NavigationBar(props) {
                         href: "/",
                         children: /*#__PURE__*/ jsx_runtime_.jsx("label", {
                             className: "font-flow font-bold text-3xl",
-                            children: "Pega A\xed!"
+                            children: "ECOMAP"
                         })
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("label", {
