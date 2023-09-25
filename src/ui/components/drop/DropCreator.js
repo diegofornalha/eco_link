@@ -348,7 +348,7 @@ export default function DropCreator(props) {
           PREVIEW
         </h1> :
         <h1 className="font-flow font-semibold text-2xl sm:text-4xl text-center mb-10">
-          CRIAR SORTEIO DE COIN
+          CRIAR BUSCA POR TOKEN
         </h1>
       }
 

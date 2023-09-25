@@ -28,7 +28,7 @@ export default function EnrolledHistory(props) {
       <div className="sm:flex sm:items-center">
         <div className="sm:flex-auto">
           <h1 className="text-2xl font-bold text-gray-900">
-            {`Enrolled Raffles (${records.length})`}
+            {`Interceptados (${records.length})`}
           </h1>
         </div>
         <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
@@ -135,7 +135,7 @@ export default function EnrolledHistory(props) {
         </div> :
         <div className="flex mb-10 justify-center">
           <label className="leading-[200px] font-flow font-medium text-base text-gray-500">
-          {isCurrentUser ? "You haven't enrolled any Raffle yet" : "This account haven't enrolled any Raffle yet"}
+          {isCurrentUser ? "Nenhum interceptado" : "This account haven't enrolled any Raffle yet"}
           </label>
         </div>}
     </div>

@@ -25,7 +25,7 @@ export default function RaffleList(props) {
       <div className="sm:flex sm:items-center">
         <div className="sm:flex-auto">
           <h1 className="text-2xl font-bold text-gray-900">
-            {isCurrentUser ? `My Raffles (${raffles.length})` : `Raffles (${raffles.length})`}
+            {isCurrentUser ? `Identificados (${raffles.length})` : `Raffles (${raffles.length})`}
           </h1>
         </div>
         <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
@@ -47,7 +47,7 @@ export default function RaffleList(props) {
                   router.push("/create/nft_raffle")
                 }}
               >
-                Novo Sorteio de NFT
+                Nova Busca
               </button> : null
           }
         </div>
@@ -163,7 +163,7 @@ export default function RaffleList(props) {
         </div> :
         <div className="flex mb-10 justify-center">
           <label className="leading-[200px] font-flow font-medium text-base text-gray-500">
-            {isCurrentUser ? "You haven't created Raffle yet" : "This account haven't created Raffle yet"}
+            {isCurrentUser ? "Nenhum indentificado" : "This account haven't created Raffle yet"}
           </label>
         </div>}
     </div>

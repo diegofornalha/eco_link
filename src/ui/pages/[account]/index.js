@@ -182,7 +182,7 @@ export default function Account(props) {
               }
             }}
           >
-            DROP
+            LINK VERIFICADO
           </button>
           <button 
             className={classNames(
@@ -195,7 +195,7 @@ export default function Account(props) {
               setShowRaffle(true)
             }}
           >
-            SORTEIO DE NFT
+            ATIVAR BUSCAS
           </button>
         </div>
       </div>
